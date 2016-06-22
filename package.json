@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-hammer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Command-line goodness for metalsmith users",
   "main": "index.js",
   "bin": {
