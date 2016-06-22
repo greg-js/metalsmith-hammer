@@ -1,0 +1,35 @@
+{
+  "name": "metalsmith-hammer",
+  "version": "0.0.1",
+  "description": "Metalsmith plugin for command-line administration and editing of your static content",
+  "main": "index.js",
+  "bin": {
+    "hammer": "./bin/hammer.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js lib/**/*.js bin/gold.js"
+  },
+  "keywords": [
+    "metalsmith",
+    "hammer",
+    "plugin",
+    "cli",
+    "command",
+    "line",
+    "edit"
+  ],
+  "author": "Gregory Scheerlinck <gregory.scheerlinck@gmail.com> (https://gregjs.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "chalk": "^1.1.3",
+    "extend": "^3.0.0",
+    "inquirer": "^1.0.3",
+    "minimist": "^1.2.0",
+    "moment": "^2.13.0",
+    "open": "0.0.5",
+    "shelljs": "^0.7.0",
+    "text-table": "^0.2.0"
+  }
+}
