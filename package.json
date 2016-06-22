@@ -1,7 +1,7 @@
 {
   "name": "metalsmith-hammer",
   "version": "0.0.1",
-  "description": "Metalsmith plugin for command-line administration and editing of your static content",
+  "description": "Command-line goodness for metalsmith users",
   "main": "index.js",
   "bin": {
     "hammer": "./bin/hammer.js"
@@ -15,8 +15,7 @@
     "hammer",
     "plugin",
     "cli",
-    "command",
-    "line",
+    "commandline",
     "edit"
   ],
   "author": "Gregory Scheerlinck <gregory.scheerlinck@gmail.com> (https://gregjs.com)",
