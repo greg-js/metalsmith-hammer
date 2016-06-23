@@ -1,12 +1,14 @@
 # metalsmith-hammer
 
-Metalsmith is [an extremely simple, *pluggable* static site generator](https://github.com/metalsmith/metalsmith). It allows you to chain plugins together to create complex static site builders.
+Metalsmith is [an extremely simple, *pluggable* static site generator](https://github.com/metalsmith/metalsmith). It lets you chain plugins together to create complex static site builders (and more).
 
-But every smith needs a hammer. If your workflow revolves around using the command-line, it can get bothersome to keep opening markdown and other documents somewhere within your project tree. That's what this package is for. When in doubt, use a hammer.
+But every smith needs a hammer. A command-line centric workflow is pretty snappy and awesome, but it can get bothersome to keep opening, creating and dropping markdown and other documents all over your project tree. That's what this package is for. When in doubt, use a hammer.
+
+![example](./docs/example.gif)
 
 This project is in early stages of development. For now, only the core feature of editing `metalsmith` files with your favorite editor has been implemented. Over time I will add more features and further polish the metalsmithing command-line experience.
 
-Feel free to request features or submit pull requests! Honestly, I've only just begun using metalsmith and felt the need to write this to make my own experience smoother. Chances are you know more than I do what could be useful addition. By the way, I based this on [my other, similar plugin for `hexo`](https://github.com/greg-js/hexo-cli-extras) so take a look there if you're also a `hexo` user.
+Feel free to request features or submit pull requests! Honestly, I've only just begun using metalsmith and felt the need to write this to make my own experience smoother. Chances are you know better than I do what could be useful additions to this. By the way, I based this on [my other, similar plugin for `hexo`](https://github.com/greg-js/hexo-cli-extras) so take a look there if you're also a `hexo` user.
 
 ## Installation
 
