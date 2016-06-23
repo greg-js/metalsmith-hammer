@@ -34,7 +34,7 @@ Renamed your `src` directory? Drop a `.hammer.json` file in your project root di
 
 Not writing in markdown? Add `"defaultType": "your_favorite_file_extension"` to `.hammer.json` or use the `type` option on the command-line.
 
-Filter your hammer queries with regular expressions like this: `hammer edit search term`. Now only articles will pop up in the menu that contain `/search/` and `/term/`. Only care about files in your `posts` collection? Just add `-f posts` or `--folder posts` to your query.
+Filter your hammer queries with regular expressions like this: `hammer edit search term`. Now only articles will pop up in the menu that contain `/search/` and `/term/`. Only care about files in your `posts` collection? Just add `-d posts` to your query (`--dir` or `--directory works too`).
 
 ## `hammer edit`
 
@@ -70,7 +70,7 @@ As noted earlier, `hammer edit` will present you with a list of *all* files loca
 Fine-tune your query by using any or all of the following:
 
 - regular expressions: every word that isn't an option will be treated as a regular expression to filter the files on. Right now, just the filenames are taken into consideration
-- `-f`/`--folder`: you probably have subfolders in your source director{y,ies}. Select only a specific subfolder by using this option
+- `-d`/`--dir`/`--directory`: you probably have subfolders in your source director{y,ies}. Select only a specific subdirectory by using this option
 - `-t`/`--type`: specify a file extension. In effect this overwrites your `defaultType` for a single query
 
 Examples:
@@ -78,12 +78,13 @@ Examples:
 ```
 hammer edit
 hammer edit cool post
-hammer edit -f articles
+hammer edit -d articles
 hammer edit -t html
-hammer edit app -f scripts -t js
+hammer edit app -d scripts -t js
 ```
 
 ## Todo
 
 * implement more commands - `rename`, `delete`, `new`
 * allow searching and filtering on metadata & file content
+* tests

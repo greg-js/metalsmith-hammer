@@ -26,16 +26,17 @@ var defaults = {
     h: 'help',
     v: 'version',
     e: 'edit',
-    f: 'folder',
     t: 'type',
-    g: 'gui'
+    g: 'gui',
+    d: 'dir',
+    directory: 'dir'
   },
   default: {
     help: false,
     version: false,
     edit: false,
     gui: false,
-    folder: null,
+    dir: null,
     type: null
   }
 };
