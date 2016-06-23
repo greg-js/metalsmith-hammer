@@ -1,5 +1,9 @@
 # metalsmith-hammer
 
+**I realized I could use this approach to command-line editing of static files for more than just metalsmith and started [ed](https://github.com/greg-js/clg). I may return to this project later to add metalsmith-specific features, but for now I'll focus on the more general tool**
+
+
+
 Metalsmith is [an extremely simple, *pluggable* static site generator](https://github.com/metalsmith/metalsmith). It lets you chain plugins together to create complex static site builders (and more).
 
 But every smith needs a hammer. A command-line centric workflow is pretty snappy and awesome, but it can get bothersome to keep opening, creating and dropping markdown and other documents all over your project tree. That's what this package is for. When in doubt, use a hammer.
